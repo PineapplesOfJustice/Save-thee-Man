@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Joti+One|Special+Elite|Merienda');
+
+body{
+  background-image: url("http://wpandsuch.com/posts/stainless/2.jpg");
+  overflow-x: hidden;
+}
+
+#openingBox{
+  background-color: black;
+  padding-bottom: 10%;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#mainDisplay{
+  margin: 0px;  
+}
+
+#title{
+  font-family: "Special Elite";
+  text-shadow: -1px 1px 1px white;
+  color: black;
+}
+
+#header{
+  text-align: center;
+  font-family: "Special Elite";
+  text-shadow: -1px 1px 1px white;
+  color: green;
+}
+
+#guessingSpace{
+  margin-right: 50%;  
+  letter-spacing: 10px;
+}
+
+#wronged{
+  font-family: "Joti One";
+  text-align: center;
+}
+
+#hintBox{
+  font-family: "Joti One";
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  word-wrap: break-word;
+}
+
+textarea{
+  overflow: hidden;  
+  word-wrap: break-word;
+  background: #eef7fa;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;  
+}
+
+#newHint{
+  display: none;   
+}
+
+input{
+  border-right: solid blue 2px;
+  background: #eef7fa;
+  text-align: center;
+  font-family: Merienda;
+}
+
+button{
+  color: #138808;
+  background-color: #d6d6ff;
+  font-size: 13px;
+  border: 2px dashed green;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#restartButton{
+  color: red;
+  background-color: #d6d6ff;
+  font-size: 13px;
+  border: 2px dashed black;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10%; 
+  display: none;  
+}
+
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
