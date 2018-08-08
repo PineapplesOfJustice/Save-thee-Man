@@ -39,10 +39,10 @@ var leftArm = makeLine(200, 200, 170, 210, "black", 3, 0);
 var rightArm = makeLine(200, 200, 230, 210, "black", 3, 0); 
 var leftLeg = makeLine(200, 250, 190, 285, "black", 3, 0);
 var rightLeg = makeLine(200, 250, 210, 285, "black", 3, 0);
-var trashCan = makeImage("https://cdn.iconscout.com/public/images/icon/premium/png-512/bin-delete-cancel-rubbish-apple-3e018c3ff15cfc85-512x512.png", -70, -70, 140, 140, 0);
+var trashCan = makeImage("Images/Hangman Icon/Trash Can.png", -70, -70, 140, 140, 0);
 trashCan.setAttribute("transform", "translate(200, 350)");
-var leftEye = makeImage("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Vote_icon_transparent.svg/2000px-Vote_icon_transparent.svg.png", 181, 135, 16, 16, 0);
-var rightEye = makeImage("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Vote_icon_transparent.svg/2000px-Vote_icon_transparent.svg.png", 203, 135, 16, 16, 0);
+var leftEye = makeImage("Images/Hangman Icon/X Icon.png", 181, 135, 16, 16, 0);
+var rightEye = makeImage("Images/Hangman Icon/X Icon.png", 203, 135, 16, 16, 0);
 var mouth = makeLine(190, 162, 210, 162, "black", 3, 0);
 //var dead = makeText("DEAD", 90, 467, 50, "Special Elite", "black", 0);
 
